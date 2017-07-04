@@ -1,2 +1,0 @@
-# CustomView
-Android easy CustomView
