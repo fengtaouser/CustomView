@@ -54,8 +54,8 @@ public class ZheShanView extends FrameLayout{
         mItemList = new ArrayList<List<PieItem>>();
 
         mItemSize = (int) context.getResources().getDimension(R.dimen.pie_item_size);
-        mInnerRadius = Constant.DEFAULT_INNER_RADIUS;
-        mRadiusInc = Constant.DEFAULT_OUTER_RADIUS;
+        mInnerRadius = 100;
+        mRadiusInc = 250;
         setWillNotDraw(false);
         setDrawingCacheEnabled(false);
 
